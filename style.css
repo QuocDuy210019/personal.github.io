@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: none;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+    /* Giữ phần .header cố định khi cuộn */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Đảm bảo nó nằm trên các phần tử khác */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    padding-top: 60px; /* Thêm khoảng trống bù đắp cho chiều cao của header */
+    margin: 0;
+    background-image:url("/img/Brown Wood Minimalist Profile LinkedIn Banner.png");
+    height: 450px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các thẻ <p> theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    text-align: center;
+    height: 160px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.about-me h1 {
+    font-size: 50px;
+}
+
+.about-me h2 {
+    font-size: 40px;
+}
+
+.about-me h1, h2 {
+    margin: 15px 0;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/**/
+
+.resume-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f0ede8;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.languages {
+    margin-top: 20px;
+}
+
+.language {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.job p {
+    font-size: 14px;
+    color: #666;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.projects h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projects h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.projects p {
+    font-size: 14px;
+    color: #666;
+}
+.resume-container h2 {
+    color: black;
+}
